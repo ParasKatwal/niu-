@@ -40,6 +40,9 @@ header{
         .navbar-brand{
             padding: 0 !important;
            color: white;
+           span{
+               font-size: 12px;
+           }
         }
         .navbar-nav{
             margin-left: auto;

@@ -40,6 +40,10 @@ header .navbar .navbar-brand {
   color: white;
 }
 
+header .navbar .navbar-brand span {
+  font-size: 12px;
+}
+
 header .navbar .navbar-nav {
   margin-left: auto;
 }
