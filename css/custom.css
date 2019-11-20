@@ -40,10 +40,6 @@ header .navbar .navbar-brand {
   color: white;
 }
 
-header .navbar .navbar-brand span {
-  font-size: 12px;
-}
-
 header .navbar .navbar-nav {
   margin-left: auto;
 }
@@ -458,5 +454,25 @@ footer .social_media svg {
   width: 30px;
   height: 30px;
   fill: #348090;
+}
+
+footer .copyright {
+  background: #348090;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .copyright p {
+  color: white;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 0;
+  padding: 5px;
 }
 /*# sourceMappingURL=custom.css.map */
